@@ -34,6 +34,28 @@ p {
 .h-why-book-rtt .h-why-points{ background: rgba(10, 125, 240, 0.9); position: absolute; right: 15px; padding: 30px}
 .h-why-book-rtt .h-why-points-head li{ margin-bottom: 10px; font-weight: 200}
 .h-why-book-rtt .h-why-points li{ list-style-image: url("../img/bullet.png"); margin-bottom: 10px; font-weight: 200}
+
+@media screen and (max-width: 1600px){
+.h-why-book-rtt h2{ font-size: 25px;}
+}
+
+@media screen and (max-width: 1440px){
+  .h-why-book-rtt{ min-height: 500px}
+	.h-why-book-rtt .h-why-points{ padding: 25px 25px 15px 25px}
+	.h-why-book-rtt .h-why-points li{ font-size: 14px;}
+}
+
+@media screen and (max-width: 1200px){
+	.h-why-book-rtt h2{ font-size: 23px;}
+	.h-why-book-rtt .h-why-points li { font-size: 13px;}
+}
+@media screen and (max-width: 991px){
+.h-why-book-rtt{ text-align: center; background: url("../img/header-bg.jpg") no-repeat center top; background-size: cover}
+.h-why-book-rtt .h-why-points{ position: static; display: block; width: 100%; margin: auto; margin-top: 25px; background: rgba(10, 125, 240, 0.9);}
+.h-why-book-rtt .h-why-points li{ list-style-image: url("../img/bullet.png"); padding: 8px 15px 8px 15px; margin: 0; font-size: 14px}
+}
+
+
 /* Links */
 
 a {
@@ -97,13 +119,21 @@ hr {
   margin-top: 200px;
   color: white;
   font-size: 70px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #headerwrap h3 {
   color: white;
   font-size: 40px;
   font-weight: 100;
+  font-family: 'EB Garamond', serif;
+  font-style: oblique;
+}
+
+#headerwrap h5 {
+  color: blue;
+  font-size: 50px;
+  font-weight: 600;
   font-family: 'EB Garamond', serif;
   font-style: oblique;
 }
@@ -428,9 +458,4 @@ hr {
 
 #copyrights p {
   margin-bottom: 5px;
-}
-
-#contact 
-.contact-item {
-	margin: 20px 0 40px 0;
 }
