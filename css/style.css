@@ -116,7 +116,7 @@ hr {
 }
 
 #headerwrap h1 {
-  margin-top: 200px;
+  margin-top: 175px;
   color: white;
   font-size: 70px;
   font-weight: 600;
@@ -131,8 +131,8 @@ hr {
 }
 
 #headerwrap h5 {
-  color: blue;
-  font-size: 50px;
+  color: rgb(219, 164, 46);
+  font-size: 55px;
   font-weight: 600;
   font-family: 'EB Garamond', serif;
   font-style: oblique;
