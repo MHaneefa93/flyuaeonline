@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Paragraph & Typographic */
 
 p {
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 25px;
 }
 
@@ -31,7 +32,7 @@ p {
 .h-why-book-rtt .container{position: relative}
 .h-why-book-rtt h2{ text-transform: uppercase; padding-bottom: 10px; font-weight: 200; font-size: 32px;}
 .h-why-book-rtt h2 span{ display: block; font-weight: 600;}
-.h-why-book-rtt .h-why-points{ background: blue; position: absolute; right: 15px; padding: 30px}
+.h-why-book-rtt .h-why-points{ background: rgba(116, 116, 247, 0.637);; position: absolute; right: 15px; padding: 30px}
 .h-why-book-rtt .h-why-points-head li{ margin-bottom: 10px; font-weight: 200}
 .h-why-book-rtt .h-why-points li{ list-style-image: url("../img/bullet.png"); margin-bottom: 10px; font-weight: 200}
 
@@ -51,7 +52,7 @@ p {
 }
 @media screen and (max-width: 991px){
 .h-why-book-rtt{ text-align: center; background: url("../img/header-bg.jpg") no-repeat center top; background-size: cover}
-.h-why-book-rtt .h-why-points{ position: static; display: block; width: 100%; margin: auto; margin-top: 25px; background: blue;}
+.h-why-book-rtt .h-why-points{ position: static; display: block; width: 100%; margin: auto; margin-top: 25px; background: rgba(116, 116, 247, 0.637);}
 .h-why-book-rtt .h-why-points li{ list-style-image: url("../img/bullet.png"); padding: 8px 15px 8px 15px; margin: 0; font-size: 14px}
 }
 
