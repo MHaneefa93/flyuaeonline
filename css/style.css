@@ -125,7 +125,7 @@ hr {
 }
 
 #headerwrap h3 {
-  color: rgb(247, 120, 120);
+  color: rgb(241, 83, 83);
   font-size: 30px;
   font-weight: 100;
   font-family: 'EB Garamond', serif;
@@ -133,9 +133,9 @@ hr {
 }
 
 #headerwrap h5 {
-  color: rgb(247, 120, 120);
+  color: black;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'EB Garamond', serif;
   font-style: oblique;
 }
